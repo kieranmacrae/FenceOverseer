@@ -1,4 +1,4 @@
-FenceOverseerAndroid
+FenceOverseer
 
 This is an android application developed as part of an engineering 
 project for ECTE350 (Engineering Design and Management 3).
