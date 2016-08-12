@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <EditText
         android:layout_width="223dp"
         android:layout_height="wrap_content"
         android:id="@+id/editText"
-        android:text="@string/unit_prompt"
-        android:inputType="text" />
+        android:hint="@string/unit_prompt"
+        android:inputType="text"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_gravity="center_horizontal"
         android:text="@string/unit_reg"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-</LinearLayout>
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
