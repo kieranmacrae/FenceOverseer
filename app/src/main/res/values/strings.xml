@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FenceOverseer</string>
+    <string name="unit_prompt">Enter Unit Number&#8230;</string>
+    <string name="unit_reg">Register Unit</string>
 </resources>
