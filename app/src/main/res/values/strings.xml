@@ -2,4 +2,11 @@
     <string name="app_name">FenceOverseer</string>
     <string name="unit_prompt">Enter Unit Number&#8230;</string>
     <string name="unit_reg">Register Unit</string>
+    <string name="title_activity_map">Unit Map</string>
+    <string name="title_activity_main">Register Unit</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 </resources>
